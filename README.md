@@ -43,15 +43,16 @@ pg, dotenv, cors	Axios, Context API
 ⚙️ Installation rapide
 1. Cloner le projet
 
-git clone <repo-url>
-cd projet-analyse-facturation
+git clone <git@github.com:omniaistaken/tt-ARIPA.git>
+
+cd tt-ARIPA
 
 2. Backend
 
 cd backend
 cp .env.template .env   # Modifier avec vos infos
 npm install
-npm run dev
+npm start
 
     ⚠️ PostgreSQL doit être installé + base créée via createdb + script d’import database/db.sh
 
@@ -62,7 +63,6 @@ cp .env.example .env     # Modifier l’URL si besoin
 npm install
 npm run dev
 
-    L'app s'ouvre sur http://localhost:3000
 
 📁 Dossiers principaux
 Dossier	Description
@@ -71,9 +71,9 @@ frontend/	App React avec dashboard, graphiques interactifs
 database/	Script SQL d’import initial (db.sh, .sql)
 👨‍💻 Développement
 
-    Mode dev backend : npm run dev (port 3001)
+    Mode dev backend : npm start (port 3000)
 
-    Mode dev frontend : npm run dev (port 3000)
+    Mode dev frontend : npm run dev (port 5173)
 
     Hot-reload, séparé par service
 
