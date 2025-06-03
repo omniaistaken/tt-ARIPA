@@ -1,0 +1,1 @@
+Pour lancer ce projet vous devrait aller dans le dossier Backend/ et Frontend et lire les readme qui s'y trouve.
