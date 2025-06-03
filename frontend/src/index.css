@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mode clair (par défaut) */
+body {
+  @apply bg-white text-gray-900;
+}
+
+/* Mode sombre */
+.dark body {
+  @apply bg-blue-900 text-blue-200;
+}
+
+/* Par exemple pour les liens */
+a {
+  @apply text-blue-600;
+}
+
+.dark a {
+  @apply text-cyan-400;
+}
